@@ -1,0 +1,41 @@
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+/src/Account.java
+/src/AutoPolicy.java
+/src/Connect.java
+/src/DateCu.java
+/src/DrawSmiley.java
+/src/Funcionario.java
+/src/GradeBook.java
+/src/Invoice.java
+/src/Panel.java
+/src/Pessoas.java
+/src/PessoasDAO.java
+/src/Shapes.java
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
