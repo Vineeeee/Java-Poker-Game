@@ -56,13 +56,14 @@ class TestandoListas {
         dealer.printDeck(dealer.hand);
 
 
-        if(dealer.evaluateHand(dealer.dealerHand) < dealer.evaluateHand(dealer.hand)){
+        if(dealer.evaluateHand(dealer.dealerHand) > dealer.evaluateHand(dealer.hand)){
             System.out.printf("Dealer wins");
         }
-        if (dealer.evaluateHand(dealer.dealerHand) > dealer.evaluateHand(dealer.hand)) {
+        if (dealer.evaluateHand(dealer.dealerHand) < dealer.evaluateHand(dealer.hand)) {
             System.out.printf("You wins");
         }
-        else{
+        if (dealer.evaluateHand(dealer.dealerHand) == dealer.evaluateHand(dealer.hand)) {
+            {
             System.out.printf("Draw");
         }
 
@@ -70,7 +71,7 @@ class TestandoListas {
     }
 
 
-}
+}}
 
 
 
